@@ -15,8 +15,6 @@ const container = document.getElementById('root')
 
 const root = createRoot(container!)
 
-console.log(config);
-console.log(import.meta.env);
 
 root.render(
     <GoogleOAuthProvider clientId={config.GOOGLE_CLIENT_ID}>
